@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @importurl("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); */
+
+body{
+  background: #1d1e22;
+  /* font-family: Montserrat; */
+  font-weight: bold;
+}
+
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}

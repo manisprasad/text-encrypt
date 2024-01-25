@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.field-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  background: #1d1e22;
+  /* background: radial-gradient(circle, rgb(24, 24, 24), #141413); */
+  font-family: Montserrat;
+}
+
+.field {
+  width: calc(100% - 20px);
+  max-width: 80vw;
+  margin-inline: auto;
+}
+
+.field__head {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.field__ttl {
+  color: #ddd;
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.field__tag {
+  padding: 6px 9px;
+  border-radius: 2px;
+  color: #ddd;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+
+  &.is-require {
+    background: #ee8013;
+  }
+}
+
+.field__body {
+  margin-top: 15px;
+}
+
+/* textaera
+---------------------------------------------------------*/
+.textarea-box {
+  width: 100%;
+}
+
+/* Reset default style */
+textarea {
+  margin: 0;
+  padding: 0;
+  
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  appearance: none;
+}
+
+textarea {
+  width: inherit;
+  box-shadow: 2px 2px 8px rgb(36, 88, 177);
+  min-height: 200px;
+  border-radius: 5px;
+  background: #ddd;
+  padding: 15px;
+  font-size: 20px;
+  /* font-weight: 200; */
+  font-family: poppins;
+  resize: vertical;
+}
